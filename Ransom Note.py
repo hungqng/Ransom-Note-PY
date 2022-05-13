@@ -20,3 +20,8 @@ class Solution:
         # Solution 2
         #return (Counter(ransomNote) - Counter(magazine)) == {}
 
+        # Solution 3
+        # for i in set(ransomNote):
+        #     if ransomNote.count(i) > magazine.count(i):
+        #         return False
+        # return True
