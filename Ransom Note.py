@@ -16,3 +16,7 @@ class Solution:
             return False
         else:
             return True
+
+        # Solution 2
+        #return (Counter(ransomNote) - Counter(magazine)) == {}
+
